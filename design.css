@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Telegraf Regular;
+    src: url(Telegraf\ Regular\ 400.otf);
+}
+
+@font-face {
+    font-family: Telegraf UltraBold;
+    src: url(Telegraf\ UltraBold\ 800.otf);
+}
+
+
+* {
+    font-family: Telegraf Regular;
+}
+
+body {
+    background: #F3F1F5;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    border-radius: 25px;
+    align-items: center;
+    margin: 3vw;
+    /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: Telegraf UltraBold;
+    font-size: 50px;
+}
+
+.grid-container {
+    display: grid;    
+}
+
+a {
+    text-decoration: none;
+    color: #536DFE;
+}
+
+img {
+    width: 70vw;
+    position: relative;
+    bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 100px;
+    margin: 0px;
+    position: relative;
+    bottom: 50px;
+}
+
+h5 {
+    position: relative;
+    bottom: 70px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+#weather {
+    position: relative;
+    bottom: 70px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+    img {
+        width: 200px;
+    }
+  }
