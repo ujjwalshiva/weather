@@ -5,12 +5,9 @@ This is a simple Weather App built using simple HTML, CSS and JavaScript. The co
 
 ## Screenshots
 
+<img src="https://user-images.githubusercontent.com/81429137/132953332-4faa32b6-b6e8-4c2f-a041-ca772f3b4ac8.png" width=400>
 
-
-
-<img src="" width=400>
-
-<img src="" width=400>
+<img src="https://user-images.githubusercontent.com/81429137/132953380-2ccd2327-3f08-499e-b5f7-c4cfc6a6f632.png" width=400>
 <br>
 
 ## Website Link: https://ujjwalshiva.github.io/weather/
