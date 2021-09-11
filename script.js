@@ -6,6 +6,7 @@ window.addEventListener("load", ()=> {
     feelslike = document.querySelector('#feelslike');
     citytext = document.querySelector('#city');
     weathertext = document.querySelector('#weather');
+    webtitle = document.querySelector('title');
     icon = document.getElementById("icon");
 
     if (navigator.geolocation) {
@@ -37,6 +38,7 @@ window.addEventListener("load", ()=> {
                     feelslike.textContent = "Feels Like: " + feels_like + ' \u00B0C';
                     citytext.textContent = city + ", " + country;
                     weathertext.textContent = weather;
+                    webtitle.textContent = "Weather " + temp + ' \u00B0C ';
 
                     if (weather.includes('Cloud')) {
                         icon.src="animated/cloudy.svg";
