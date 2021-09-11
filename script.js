@@ -33,7 +33,7 @@ window.addEventListener("load", ()=> {
                     //console.log(city, country);
                     //console.log(weather);
 
-                    temperature.textContent = temp + ' \u00B0C';
+                    temperature.textContent = temp + ' \u00B0C' ;
                     feelslike.textContent = "Feels Like: " + feels_like + ' \u00B0C';
                     citytext.textContent = city + ", " + country;
                     weathertext.textContent = weather;
