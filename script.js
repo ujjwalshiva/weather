@@ -25,8 +25,8 @@ window.addEventListener("load", ()=> {
                     let city = data.name;
                     let country = data.sys.country;
                     let weather = data.weather[0].main;
-                    temp = (temp/10).toFixed(0);
-                    feels_like = (feels_like/10).toFixed(0);
+                    temp = (temp - 273).toFixed(0);
+                    feels_like = (feels_like - 273).toFixed(0);
 
                     //console.log(temp);
                     //console.log(feels_like);
